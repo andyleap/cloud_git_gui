@@ -17,11 +17,11 @@ define(function(require, exports, module) {
 
 var ext = require("core/ext");
 var ide = require("core/ide");
-var markup = require("text!ext/extension_template/extension_template.xml");
+var markup = require("text!cloud9_git_gui/extension_template.xml");
 
-module.exports = ext.register("ext/extension_template/extension_template", {
+module.exports = ext.register("cloud9_git_gui/extension_template", {
     name     : "Extension Template",
-    dev      : "Ajax.org",
+    dev      : "Andrew Leap",
     alone    : true,
     type     : ext.GENERAL,
     markup   : markup,
